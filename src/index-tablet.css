@@ -1,165 +1,164 @@
 /* ipad */
 @media (min-width: 767px) and (max-width: 1050px) {
-
     #title {
-      font-size: 2em !important;
+        font-size: 2em !important;
     }
-  
+
     h1 {
-      font-size: 1.5em !important;
+        font-size: 1.5em !important;
     }
-  
+
     h2 {
-      font-size: 1em !important;
+        font-size: 1em !important;
     }
-  
+
     h3 {
-      font-size: .9em !important;
+        font-size: 0.9em !important;
     }
-  
+
     p {
-      font-size: .7em !important;
+        font-size: 0.7em !important;
     }
-  
+
     label {
-      font-size: .8em;
+        font-size: 0.8em;
     }
 
     .custom-nav {
-      font-size: 0.6em !important;
-      background-color: white;
-      padding: .5em !important;
+        font-size: 0.6em !important;
+        background-color: white;
+        padding: 0.5em !important;
+        padding-right: 10% !important;
     }
 
     .dropdown-item {
-      font-size: .7em !important;
+        font-size: 0.7em !important;
     }
-  
+
     .footer-logo {
-      width: 10em !important;
+        width: 10em !important;
     }
-  
+
     #landing {
-      max-height: 350px !important;
-      padding-top: 10%;
+        max-height: 350px !important;
+        padding-top: 10%;
     }
-  
+
     #service-landing {
-      max-height: 150px !important; 
+        max-height: 150px !important;
     }
-  
+
     .service-box {
-      margin: -3em .5em 0 .5em;
-      padding: 1.5em .5em .5em .5em;
+        margin: -3em 0.5em 0 0.5em;
+        padding: 1.5em 0.5em 0.5em 0.5em;
     }
-  
+
     .landing-boxes-small {
         height: 5vw !important;
     }
-    
+
     .landing-boxes {
         height: 6vw !important;
     }
 
     /* how it works */
     #how-it-works-landing {
-      padding: 0 !important;
+        padding: 0 !important;
     }
-  
+
     #how-it-works-LC {
-      width: 50%;
-      padding-right: 0 !important;
+        width: 50%;
+        padding-right: 0 !important;
     }
-  
+
     #how-it-works-RC {
-      padding: 3em 1em 2em 2em;
+        padding: 3em 1em 2em 2em;
     }
-  
+
     #how-form {
-      padding: 2em !important;
-      margin-bottom: 4em;
-      margin-top: 4em;
-      width: 300px;
-      max-width: 40vw;
+        padding: 2em !important;
+        margin-bottom: 4em;
+        margin-top: 4em;
+        width: 300px;
+        max-width: 40vw;
     }
-  
+
     input {
-      font-size: .8em !important;
+        font-size: 0.8em !important;
     }
-  
+
     .theme-btn {
-      font-size: .8em !important;
+        font-size: 0.8em !important;
     }
-  
+
     /* who we are */
     #who-we-are-L {
-      padding-top: 0 !important;
-      padding-left: 3em !important;
+        padding-top: 0 !important;
+        padding-left: 3em !important;
     }
-  
+
     /* footer */
     .footer-link a {
-      font-size: .8em;
+        font-size: 0.8em;
     }
-  
+
     /* about pg */
     .header-img {
-      height: 200px !important;
-      padding-top: 80px !important;
+        height: 200px !important;
+        padding-top: 80px !important;
     }
-  
+
     .about-content-sub {
-      margin-bottom: 2em !important;
+        margin-bottom: 2em !important;
     }
-  
+
     .about-text-L {
-      padding-right: 2em !important;
+        padding-right: 2em !important;
     }
-  
+
     .about-text-R {
-      padding-left: 2em !important;
+        padding-left: 2em !important;
     }
-  
+
     .about-content {
-      padding-bottom: 6em !important;
+        padding-bottom: 6em !important;
     }
-  
+
     .contact-img {
-      height: 1.2em;
-      margin-top: 0;
+        height: 1.2em;
+        margin-top: 0;
     }
     /* about us philosophy */
     #phil-box .col {
-      padding: 1em !important;
+        padding: 1em !important;
     }
-  
+
     #phil-box {
-      margin-top: -100px !important;
+        margin-top: -100px !important;
     }
-  
+
     #phil-box h3 {
-      margin-top: 1em !important;
+        margin-top: 1em !important;
     }
-  
+
     .value {
-      padding: 1em 3em !important;
+        padding: 1em 3em !important;
     }
-  
+
     /* service page */
     .service-L {
-      width: 40% !important;
+        width: 35% !important;
     }
-  
+
     .service-R {
-      width: 60% !important;
-      padding: 0 !important;
+        width: 65% !important;
+        padding: 0 !important;
     }
-  
+
     .service-page-box {
-      margin: 0 auto 2em auto !important;
-      width: 250px !important;
-      max-width: 70%;
-      min-width: 10% !important;
+        margin: 0 !important;
+        width: 250px !important;
+        max-width: 90%;
+        min-width: 10% !important;
     }
-  }
-  
+}
