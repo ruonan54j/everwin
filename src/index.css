@@ -232,7 +232,7 @@ body {
 }
 
 .services-icons {
-    width: 2.5em;
+    width: 3em;
 }
 
 .service-card {
@@ -516,4 +516,10 @@ li p {
     font-weight: 700;
     text-decoration: none;
     background-position: 0 100%;
+}
+
+/* ocean shipping */
+.sub-page-icon-text {
+    margin-top: 2em;
+    font-weight: 600;
 }

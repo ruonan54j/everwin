@@ -50,24 +50,38 @@ function CustomNav() {
                         id="basic-nav-dropdown"
                     >
                         <NavDropdown.Item
-                            href="/service-shipping"
+                            href="/shipping"
                             onClick={() => setActive(2)}
                         >
                             Shipping
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item
-                            href="/service-warehouse"
+                            href="/warehouse"
                             onClick={() => setActive(2)}
                         >
                             Warehouse and Fullfillment
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item
-                            href="/service-business"
+                            href="/business-solutions"
                             onClick={() => setActive(2)}
                         >
                             Business Solutions
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item
+                            href="/shipping"
+                            onClick={() => setActive(2)}
+                        >
+                            Ocean Shipping
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item
+                            href="/airfreight"
+                            onClick={() => setActive(2)}
+                        >
+                            Air Freight
                         </NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
