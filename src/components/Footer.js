@@ -19,23 +19,25 @@ function Footer() {
                 <div className="col-md">
                     <h3>Services</h3>
                     <div className="footer-link">
-                        <NavLink to="/shipping">Shipping</NavLink>
+                        <NavLink to="/service-shipping">Shipping</NavLink>
                     </div>
                     <div className="footer-link">
-                        <NavLink to="/warehouse">
+                        <NavLink to="/service-warehouse">
                             Warehouse and FullFillment
                         </NavLink>
                     </div>
                     <div className="footer-link">
-                        <NavLink to="/business-solutions">
+                        <NavLink to="/service-business-solutions">
                             Business Solutions
                         </NavLink>
                     </div>
                     <div className="footer-link">
-                        <NavLink to="/ocean-shipping">Ocean Shipping</NavLink>
+                        <NavLink to="/service-ocean-shipping">
+                            Ocean Shipping
+                        </NavLink>
                     </div>
                     <div className="footer-link">
-                        <NavLink to="/airfreight">Air Freight</NavLink>
+                        <NavLink to="/service-airfreight">Air Freight</NavLink>
                     </div>
                 </div>
 

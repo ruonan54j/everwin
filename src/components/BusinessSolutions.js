@@ -8,7 +8,7 @@ function BusinessSolutions() {
             <HeaderImage classStyle="shipping-header" text="SHIPPING" />
             <div className="service-page row no-gutters">
                 <div className="service-L">
-                    <ServiceNav />
+                    <ServiceNav active="business" />
                 </div>
 
                 <div className="service-R">

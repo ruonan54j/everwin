@@ -5,10 +5,10 @@ import ServiceNav from './ServiceNav'
 function Airfreight() {
     return (
         <div>
-            <HeaderImage classStyle="shipping-header" text="SHIPPING" />
+            <HeaderImage classStyle="airfreight-header" text="AIRFREIGHT" />
             <div className="service-page row no-gutters">
                 <div className="service-L">
-                    <ServiceNav />
+                    <ServiceNav active="airfreight" />
                 </div>
 
                 <div className="service-R">

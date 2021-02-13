@@ -396,13 +396,24 @@ body {
     margin: 0 auto;
 }
 
+.service-box-active p {
+    color: #1dbc98;
+    font-weight: 700;
+}
+
+.service-box-active a:hover {
+    text-decoration: none !important;
+}
+
 #service-page-nav a {
     color: #2c2c2f;
 }
 
+#service-page-nav p:hover {
+    background-color: #f8f8f9;
+}
+
 #service-page-nav a:hover {
-    color: #1dbc98;
-    font-weight: 700;
     text-decoration: none;
 }
 
@@ -411,6 +422,7 @@ body {
     font-weight: 600;
     background-color: #1dbc98;
     padding: 1em;
+    margin-bottom: 2px;
     color: #ffffff;
 }
 
@@ -471,6 +483,25 @@ li p {
 
 .shipping-header {
     background: url('./images/shipping-banner.png') no-repeat center center;
+}
+
+.warehouse-header {
+    background: url('./images/warehouse-banner.png') no-repeat center center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.warehouse-page-img {
+    width: 20em;
+}
+
+.ocean-header {
+    background: url('./images/ocean-banner.png') no-repeat center center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.airfreight-header {
+    background: url('./images/airfreight-banner.png') no-repeat center center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
 
 .header-img {

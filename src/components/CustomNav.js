@@ -6,12 +6,12 @@ function CustomNav() {
     const [active, setActive] = useState(0)
 
     useEffect(() => {
-        if (window.location.href.includes('home')) {
-            setActive(0)
-        } else if (window.location.href.includes('about')) {
+        if (window.location.href.includes('about')) {
             setActive(1)
         } else if (window.location.href.includes('service')) {
             setActive(2)
+        } else {
+            setActive(0)
         }
     }, [])
 
@@ -50,35 +50,35 @@ function CustomNav() {
                         id="basic-nav-dropdown"
                     >
                         <NavDropdown.Item
-                            href="/shipping"
+                            href="/service-shipping"
                             onClick={() => setActive(2)}
                         >
                             Shipping
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item
-                            href="/warehouse"
+                            href="/service-warehouse"
                             onClick={() => setActive(2)}
                         >
                             Warehouse and Fullfillment
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item
-                            href="/business-solutions"
+                            href="/service-business-solutions"
                             onClick={() => setActive(2)}
                         >
                             Business Solutions
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item
-                            href="/shipping"
+                            href="/service-ocean-shipping"
                             onClick={() => setActive(2)}
                         >
                             Ocean Shipping
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item
-                            href="/airfreight"
+                            href="/service-airfreight"
                             onClick={() => setActive(2)}
                         >
                             Air Freight

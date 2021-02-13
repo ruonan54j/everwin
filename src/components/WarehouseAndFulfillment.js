@@ -5,10 +5,13 @@ import ServiceNav from './ServiceNav'
 function WarehouseAndFulfillment() {
     return (
         <div>
-            <HeaderImage classStyle="shipping-header" text="SHIPPING" />
+            <HeaderImage
+                classStyle="warehouse-header"
+                text="WAREHOUSE AND FULFILLMENT"
+            />
             <div className="service-page row no-gutters">
                 <div className="service-L">
-                    <ServiceNav />
+                    <ServiceNav active="warehouse" />
                 </div>
 
                 <div className="service-R">

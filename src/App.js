@@ -20,20 +20,28 @@ function App() {
                 <div className="content">
                     <Route path="/" component={Landing} exact />
                     <Route path="/about" component={About} exact />
-                    <Route path="/shipping" component={Shipping} exact />
                     <Route
-                        path="/warehouse"
+                        path="/service-shipping"
+                        component={Shipping}
+                        exact
+                    />
+                    <Route
+                        path="/service-warehouse"
                         component={WarehouseAndFulfillment}
                         exact
                     />
-                    <Route path="/airfreight" component={Airfreight} exact />
                     <Route
-                        path="/ocean-shipping"
+                        path="/service-airfreight"
+                        component={Airfreight}
+                        exact
+                    />
+                    <Route
+                        path="/service-ocean-shipping"
                         component={OceanShipping}
                         exact
                     />
                     <Route
-                        path="/business-solutions"
+                        path="/service-business-solutions"
                         component={Services}
                         exact
                     />

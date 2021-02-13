@@ -6,10 +6,10 @@ import efficiency from '../images/efficiency.svg'
 function OceanShipping() {
     return (
         <div>
-            <HeaderImage classStyle="shipping-header" text="SHIPPING" />
+            <HeaderImage classStyle="ocean-header" text="OCEAN SHIPPING" />
             <div className="service-page row no-gutters">
                 <div className="service-L">
-                    <ServiceNav />
+                    <ServiceNav active="ocean" />
                 </div>
 
                 <div className="service-R">
