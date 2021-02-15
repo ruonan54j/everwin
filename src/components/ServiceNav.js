@@ -1,3 +1,5 @@
+import FormToggle from './FormToggle'
+
 function ServiceNav(props) {
     return (
         <div className="service-page-box" id="service-page-nav">

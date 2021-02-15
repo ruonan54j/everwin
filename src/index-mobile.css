@@ -60,6 +60,15 @@
         text-align: center !important;
     }
 
+    .services-icons {
+        width: 2em;
+    }
+
+    .service-card {
+        width: 80%;
+        margin: auto;
+    }
+
     #welcome-txt {
         text-align: center;
     }
@@ -139,19 +148,10 @@
         font-size: 0.7em !important;
     }
 
-    /* who we are phone */
-    #who-we-are-L {
-        padding: 2em !important;
-    }
-
-    #who-we-are p {
-        padding: 0 0 2em 2em !important;
-        width: 100% !important;
-    }
-
     /* footer phone */
     #footer {
         padding: 1em 2em;
+        z-index: 1;
     }
 
     .footer-logo {
@@ -176,14 +176,6 @@
         margin-top: 0;
     }
 
-    #who-we-are-R {
-        padding: 1em 2em;
-    }
-
-    #who-we-are-R img {
-        width: 100%;
-    }
-
     .theme-btn {
         font-size: 0.7em !important;
     }
@@ -201,18 +193,6 @@
 
     .about-img {
         width: 100% !important;
-    }
-
-    .about-text-L {
-        width: 100% !important;
-        padding-right: 1em !important;
-    }
-
-    .about-text-R {
-        width: 100% !important;
-        padding-right: 1em !important;
-        margin-top: 2em;
-        padding-left: 0 !important;
     }
 
     .about-content {
@@ -269,5 +249,23 @@
 
     .dropdown-item {
         font-size: 0.7em !important;
+    }
+
+    /* form toggle */
+    .form-toggle form {
+        max-height: 520px;
+        width: 500px;
+        margin-bottom: 1em !important;
+        height: 75vh;
+        overflow: scroll;
+    }
+
+    .form-toggle-chat {
+        width: 4em;
+        height: 4em;
+    }
+    .form-toggle-icon {
+        width: 2em;
+        padding-top: 0.5em;
     }
 }

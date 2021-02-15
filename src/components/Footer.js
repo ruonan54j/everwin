@@ -41,7 +41,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className="contacts">
+                <div className="contacts" id="contacts">
                     <h3>Contacts</h3>
                     <div className="row no-gutters">
                         <img src={phone} className="contact-img" />

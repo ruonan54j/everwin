@@ -32,7 +32,7 @@ function Airfreight() {
                         provides unique perspectives and enables asset-supported
                         solutions for cargo transportation. Our global team is
                         knowledgeable in local regulations, compliance, and
-                        business practices, providing valuable guidance and
+                        business practices, providing valuable guidance and consultation any time you need it.
                     </p>
                 </div>
             </div>
