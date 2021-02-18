@@ -109,35 +109,10 @@
         height: 30px !important;
     }
 
-    /* how it works phone */
-    #how-it-works-landing {
-        display: block !important;
-    }
-
-    #how-it-works-LC {
-        width: 100% !important;
-        padding: 0 !important;
-    }
-
-    #how-form {
-        width: 100% !important;
-        margin-bottom: 2em;
-        padding: 2em 1em !important;
-    }
-
-    #how-form button {
-        margin-top: 2em;
-    }
-
     .form-col,
     .form-group {
         width: 100% !important;
         margin: 0 !important;
-    }
-
-    #how-it-works-RC {
-        width: 100vw !important;
-        padding: 2em 4em 2em 1em;
     }
 
     label {
@@ -254,12 +229,15 @@
     /* form toggle */
     .form-toggle form {
         max-height: 520px;
-        width: 500px;
-        margin-bottom: 1em !important;
+        max-width: 85vw;
+        padding: 1em 0.5em;
+        margin: 1em 0.5em;
         height: 75vh;
         overflow: scroll;
     }
-
+    .form-toggle form button {
+        margin-top: 1em;
+    }
     .form-toggle-chat {
         width: 4em;
         height: 4em;
@@ -267,5 +245,23 @@
     .form-toggle-icon {
         width: 2em;
         padding-top: 0.5em;
+    }
+
+    /* toggle form */
+    @keyframes slide-form {
+        from {
+            padding: 0;
+            height: 0;
+            overflow: hidden;
+        }
+        to {
+            height: 75vh;
+            overflow: hidden;
+        }
+    }
+
+    .form-toggle form {
+        animation-name: slide-form;
+        animation-duration: 0.2s;
     }
 }

@@ -61,20 +61,6 @@
         height: 6vw !important;
     }
 
-    /* how it works */
-    #how-it-works-landing {
-        padding: 0 !important;
-    }
-
-    #how-it-works-LC {
-        width: 50%;
-        padding-right: 0 !important;
-    }
-
-    #how-it-works-RC {
-        padding: 3em 1em 2em 2em;
-    }
-
     input {
         font-size: 0.8em !important;
     }
@@ -152,7 +138,7 @@
             overflow: hidden;
         }
         to {
-            height: 520px;
+            height: 480px;
             overflow: hidden;
         }
     }

@@ -576,18 +576,21 @@ li p {
         overflow: hidden;
     }
     to {
-        height: 580px;
+        height: 500px;
         overflow: hidden;
     }
 }
 
 .form-toggle form {
+    max-height: 70vh;
+    overflow: scroll;
     background-color: #ffffff;
     padding: 2em;
     margin-bottom: 2em;
     border-radius: 4px;
     box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
-    width: 450px;
+    width: 1000px;
+    max-width: 80vw;
     text-align: left;
     animation-name: slide-form;
     animation-duration: 0.2s;
@@ -599,8 +602,8 @@ li p {
 .form-toggle-chat {
     border-radius: 50%;
     background-color: #1dbc98;
-    width: 5em;
-    height: 5em;
+    width: 4.5em;
+    height: 4.5em;
     border: none;
     outline: none;
     text-align: center;
@@ -613,6 +616,22 @@ li p {
     outline: none;
 }
 .form-toggle-icon {
-    width: 2.5em;
+    width: 2.2em;
     padding-top: 0.5em;
+}
+
+.how-it-works {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.how-it-works h2 {
+    font-weight: 700;
+}
+
+.how-it-works-numbers {
+    color: #1dbc98;
+}
+.how-it-works h3 {
+    font-weight: 700;
 }
